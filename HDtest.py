@@ -11,7 +11,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model=pickle.load(open('/Users/reshmi/Downloads/trained_HDmodel.sav','rb'))
+loaded_model=pickle.load(open('trained_HDmodel.sav','rb'))
 #input_data=[4,110,92,0,0,37.6,0.191,30]
 
 def HD_prediction(input_data):
